@@ -1,29 +1,8 @@
 # Unity week 2: Formal elements
 
-A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
-
-* Prefabs for instantiating new objects;
-* Colliders for triggering outcomes of actions;
-* Coroutines for setting time-based rules.
-
-Text explanations are available 
-[here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 04.
-
-## Cloning
-To clone the project, you may need to install git lfs first (if it is not already installed):
-
-    git lfs install 
-
-To clone faster, you can limit the depth to 1 like this:
-
-    git clone --depth=1 https://github.com/<repository-name>.git
-
-When you first open this project, you may not see the text in the score field.
-This is because `TextMeshPro` is not in the project.
-The Unity Editor should hopefully prompt you to import TextMeshPro;
-once you do this, re-open the scenes, and you should be able to see the texts.
-
-
+In this project I added borders to the game. Going right or left will make us jump to the opposite side of the screen. This was done by adding a wall that triggers the jump. In addition, there is no option of exiting the screen at the top and botton do to a static wall that is blocking the spaceship from moving.
+I also created a a health system. At the begining of the game the player has 3 lives and can collect more lives by hitting the random hearts that show up on the screen.
+[itch.io](https://mayamichael.itch.io/spaceship-maya)
 
 ## Credits
 
@@ -40,3 +19,4 @@ Graphics:
 * [Ductman's 2D Animated Spacehips](https://assetstore.unity.com/packages/2d/characters/2d-animated-spaceships-96852)
 * [Franc from the Noun Project](https://commons.wikimedia.org/w/index.php?curid=64661575)
 * [Greek-arrow-animated.gif by Andrikkos is licensed under CC BY-SA 3.0](https://search.creativecommons.org/photos/2db102af-80d0-4ec8-9171-1ac77d2565ce)
+* [Heart image](https://www.hiclipart.com/free-transparent-background-png-clipart-idddr/download)
